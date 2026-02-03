@@ -18,6 +18,76 @@
 
 
 
+    /*---------------
+        Mob. menu
+    ---------------*/
+    .mob_menu
+    {
+        width: 279px;
+    }
+
+
+    .mob_menu .head
+    {
+        padding-inline: var(--inner_gap) var(--inner_gap_l);
+    }
+
+
+    .mob_menu .menu .item > a
+    {
+        height: 59px;
+        padding-inline: var(--inner_gap) var(--inner_gap_l);
+
+        font-size: 18px;
+    }
+
+
+    .mob_menu .cart_link,
+    .mob_menu .search_btn
+    {
+        height: 59px;
+        padding-inline: var(--inner_gap) var(--inner_gap_l);
+    }
+
+
+
+    .mob_menu .back_btn
+    {
+        padding-inline: var(--inner_gap) var(--inner_gap_l);
+
+        font-size: 20px;
+    }
+
+
+    .mob_menu .back_btn span
+    {
+        width: calc(100% - 40px);
+    }
+
+
+    .mob_menu .menu .sub .sub_services
+    {
+        padding-inline: var(--inner_gap) var(--inner_gap_l);
+    }
+
+
+    .mob_menu .menu .sub .sub_services .icon + *
+    {
+        width: 100%;
+        margin-top: var(--inner_gap);
+    }
+
+
+    .mob_menu .menu .sub .links a
+    {
+        height: 59px;
+        padding-inline: var(--inner_gap) var(--inner_gap_l);
+
+        font-size: 18px;
+    }
+
+
+
     /*------------------
         Form elements
     ------------------*/

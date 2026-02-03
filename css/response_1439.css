@@ -42,6 +42,7 @@
     /*------------
         Header
     ------------*/
+    .header_wrap,
     header
     {
         display: none;
@@ -52,6 +53,7 @@
     /*-----------------
         Mob. header
     -----------------*/
+    .mob_header_wrap,
     .mob_header
     {
         display: block;
@@ -102,22 +104,9 @@
     }
 
 
-    .first_section .title span
-    {
-        padding-block: var(--inner_gap_s);
-    }
-
-
     .first_section .desc
     {
         margin-top: var(--inner_gap_xxl);
-    }
-
-
-    .first_section .desc span
-    {
-        padding-block: var(--inner_gap_xs);
-        padding-inline: var(--inner_gap_s);
     }
 
 
@@ -302,7 +291,7 @@
 
     .history .swiper-wrapper
     {
-        height: 200px;
+        height: auto;
     }
 
 
@@ -315,7 +304,8 @@
     .history .item
     {
         width: 100%;
-        height: 200px;
+        height: auto;
+        min-height: 200px;
         padding: var(--inner_gap_l);
 
         transition: .2s linear;
