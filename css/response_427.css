@@ -18,16 +18,41 @@
 
 
 
+    .mob_header .contacts .phone
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .mob_header .contacts .phone .icon
+    {
+        width: 12px;
+    }
+
+
+
     .mob_header .messengers
     {
+        margin-left: var(--inner_gap_xs);
+
         gap: var(--inner_gap_xs);
     }
 
 
 
-    .mob_header .contacts_mob
+    .mob_header.fixed .messengers
     {
-        margin-left: var(--inner_gap_xs);
+        margin-left: 14px;
+
+        gap: 8px;
+    }
+
+
+    .mob_header.fixed .messengers a
+    {
+        height: 42px;
+
+        border-radius: var(--border_radius_s);
     }
 
 

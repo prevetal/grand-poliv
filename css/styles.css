@@ -1366,7 +1366,16 @@ header.fixed .bottom
 }
 
 
-.mob_header .logo_mob img + img
+.mob_header .logo_mob img:nth-child(2)
+{
+    display: none;
+
+    width: 196px;
+    height: 43px;
+}
+
+
+.mob_header .logo_mob img:nth-child(3)
 {
     display: none;
 
@@ -1532,7 +1541,7 @@ header.fixed .bottom
     flex-wrap: wrap;
     justify-content: flex-start;
 
-    margin-left: var(--inner_gap_s);
+    margin-left: auto;
 
     gap: var(--inner_gap_s);
 }

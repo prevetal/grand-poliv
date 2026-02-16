@@ -66,15 +66,22 @@
     }
 
 
-    .mob_header.fixed .logo_mob img + img
+    .mob_header.fixed .logo_mob img,
+    .mob_header.fixed .logo_mob img:nth-child(2)
+    {
+        display: none;
+    }
+
+
+    .mob_header.fixed .logo_mob img:nth-child(3)
     {
         display: block;
     }
 
 
-    .mob_header.fixed .logo_mob img
+    .mob_header.fixed .contacts .phone .icon
     {
-        display: none;
+        display: block;
     }
 
 
